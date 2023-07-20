@@ -65,7 +65,7 @@ SHORT_API = environ.get("SHORT_API")
 # Others
 IMDB_DELET_TIME = int(environ.get('IMDB_DELET_TIME', "300"))
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'waldywritings_bot')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Nsmovies7')
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "<b>{file_caption} \n Size :- <i>{file_size}</i> \n × [NS Movies7] × (https://telegram.me/NSmovies7)</b>")
 P_TTI_SHOW_OFF = is_enabled(environ.get('P_TTI_SHOW_OFF', "True"), True)
 PM_IMDB = is_enabled(environ.get('PM_IMDB', "False"), False)
